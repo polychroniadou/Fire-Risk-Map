@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20260521</CreaDate><CreaTime>19022200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\users\maria\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\SingleOutputMapAlgebra" Date="20260521" Time="190222">SingleOutputMapAlgebra Con(IsNull(DEM.img), DEM.img, $$YMap) "C:/vasilakos/ergasia 2/fire_ergasia2_workspace/Y" #</Process></lineage></DataProperties></Esri></metadata>
