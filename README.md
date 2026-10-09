@@ -4,7 +4,7 @@ A spatial logistic regression model that estimates relative wildfire ignition ri
 
 ![Study area: Lesvos Island](AREAMAP.jpg)
 
-![Wildfire risk zone map of Lesvos](fire_risk_zone_map.jpg)
+
 
 ## Key results
 
@@ -64,7 +64,10 @@ Not significant: distance to main road, distance to agricultural areas, slope, e
 
 ### Risk map
 
+![Wildfire risk zone map of Lesvos](fire_risk_zone_map.jpg)
+
 Very high and high risk zones appear mainly in the north (around Mithymna and Mantamados) and in the east, including the area around Mytilene. Smaller high-risk patches are scattered across the island. The lowest risk is in the lowland plains, around the Gulf of Kalloni and in the west near Eresos.
+
 
 ## Limitations
 
