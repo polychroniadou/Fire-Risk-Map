@@ -24,20 +24,23 @@ Lesvos, in the northeastern Aegean Sea, has rugged terrain, a Mediterranean clim
 
 ## Data
 
-- **Fire points:** recorded wildfire ignition points (value 1) `[source, years covered]`.
-- **No-fire points:** random points with no fire (value 0), generated with a "random dates, no fires" method.
-- **Terrain:** DEM (elevation), slope in degrees (derived from the DEM), X and Y coordinates.
-- **Distance rasters:** distance to settlements, agricultural areas, main road, secondary road, power lines and landfills.
-- **Data provenance:** `[who provided the datasets / original sources]`.
+- **Fire points:** Recorded wildfire ignition points (value 1) sourced from official Hellenic Fire Service historic records.
+
+- **No-fire points:** Random unburned points (value 0) generated across the study extent as a balanced pseudo-absence baseline.
+
+- **Terrain:** Digital Elevation Model (DEM) and derived slope gradients.
+
+- **Infrastructure:** Euclidian distance layers computed from settlements, agricultural parcels, road networks, power lines, and landfills.
+
 
 ## Methodology
 
-1. **Pre-processing (ArcGIS Pro):** set the processing extent and mask to the DEM. Created X and Y coordinate rasters with Python (`SingleOutputMapAlgebra`). Computed slope from the DEM. Split the road network into main (ID 1) and secondary (ID 2) roads and computed Euclidean distance rasters.
+1. **Pre-processing (ArcGIS Pro):** set the processing extent and mask to the DEM. Created X and Y coordinate rasters with Python. Generated continuous X and Y coordinate raster surfaces using Map Algebra in ArcGIS Pro (arcpy.sa).. Computed slope from the DEM. Split the road network into main (ID 1) and secondary (ID 2) roads and computed Euclidean distance rasters.
 2. **Normalisation:** rescaled every raster to 0-1 with min-max normalisation in the Raster Calculator: `X' = (X − Xmin) / (Xmax − Xmin)`.
 3. **Sampling:** used *Extract Multi Values to Points* to attach the raster values to each point, and created a binary `fire` field as the dependent variable.
 4. **Model (SPSS):** exported the attribute table to CSV and ran a Binary Logistic Regression with `fire` as the dependent variable and the 10 normalised variables as predictors.
 5. **Evaluation:** classification table (cut value 0.5), sensitivity and specificity, Hosmer-Lemeshow test and the observed groups and predicted probabilities plot.
-6. **Risk map:** applied the fitted equation in the ArcGIS Raster Calculator, `P = 1 / (1 + e^(−z))`, and divided the result into 4 risk zones (low to very high) `[classification method]`.
+6. **Risk map:** applied the fitted equation in the ArcGIS Raster Calculator, `P = 1 / (1 + e^(−z))`, and divided the result into 4 risk zones (low to very high) `divided the continuous probability surface into 4 relative risk zones (Low, Moderate, High, Very High) using Natural Breaks (Jenks)." (or Quantiles, whichever you used in ArcGIS)`.
 
 ## Results
 
