@@ -87,6 +87,21 @@ ArcGIS Pro (Raster Calculator, Euclidean Distance, Slope, Extract Multi Values t
 
 ## Reference
 
-Vilar del Hoyo, L., Martín Isabel, M. P., & Martínez Vega, F. J. (2011). Logistic regression models for human-caused wildfire risk estimation: Analysing the effect of the spatial accuracy in fire occurrence data. *European Journal of Forest Research*, 130(6), 983-996. https://doi.org/10.1007/s10342-011-0488-2
+Cho, M., & Park, C. (2026). Predicting Anthropogenic Wildfire Occurrence Using Explainable Machine Learning Models: A Nationwide Case Study of South Korea. Fire, 9(3). https://doi.org/10.3390/fire9030126
+
+Cobo-Muelas, E. S., López-Serrano, P. M., Wehenkel, C., Manzo-Delgado, L. de L., & Martínez-López, J. (2026). Wildfire Detection in the Iztaccíhuatl-Popocatépetl Protected Natural Area Using Spectral Indices and Logistic Regression. Fire, 9(2). https://doi.org/10.3390/fire9020050 
+
+Dimarco, N. A., Faraji, I., Wahbi, M., Maatouk, M., Boulaassal, H., Aalaoui, O. Y., & el Kharki, O. (2025). FireRisk-Zone-LR: A Logistic Regression-Based Wildfire Hazard Zoning Framework for Mediterranean Forests in Tangier, Morocco. E3S Web of Conferences, 676, 02006. https://doi.org/10.1051/e3sconf/202567602006
+
+Karger, E., Jeppe, A., Ziolkowski, R., Korn, F., Hackel, T., Harr, M., Brée, T., & Ahlemann, F. (2026). Artificial intelligence for wildfire detection and management. In Discover Artificial Intelligence (Vol. 6, Issue 1). Springer Nature. https://doi.org/10.1007/s44163-026-01087-5
+
+Liao, L., & Zhu, X. (2025). Predicting Wildfire Risk in Southwestern Saudi Arabia Using Machine Learning and Geospatial Analysis. Remote Sensing, 17(21). https://doi.org/10.3390/rs17213516
+
+Marathianou, M., Kosmas, C., Gerontidis, S., & Detsis, V. (2000). Land-use evolution and degradation in Lesvos (Greece): A historical approach. Land Degradation and Development, 11(1), 63–73. https://doi.org/10.1002/(SICI)1099-145X(200001/02)11:1<63::AID-LDR369>3.0.CO;2-8  
+
+Vilar del Hoyo, L., Isabel, M. P. M., & Vega, F. J. M. (2011). Logistic regression models for human-caused wildfire risk estimation: Analysing the effect of the spatial accuracy in fire occurrence data. European Journal of Forest Research, 130(6), 983–996. https://doi.org/10.1007/s10342-011-0488-2 
+
+Copernicus (2022). Wildfire crisis: Lesvos, Greece. From 
+https://www.copernicus.eu/en/media/image-day-gallery/wildfire-crisis-europe-2022-lesvos-greece 
 
 *Project developed at the University of the Aegean, Department of Geography.*
