@@ -23,8 +23,8 @@ Lesvos, situated in the northeastern Aegean Sea, is characterized by rugged topo
 
 ## Data
 
-- **Fire Points:** Historic wildfire ignition points (Value: 1) sourced from official Hellenic Fire Service records.
-- **No-Fire Points:** Random unburned points (Value: 0) generated across the study extent as a balanced pseudo-absence baseline.
+- **Fire Points:** Historic wildfire ignition points (Value: 1) data from the University of the Aegea, Cartography lab.
+- **No-Fire Points:** Random unburned points (Value: 0) given across the study extent as a balanced pseudo-absence baseline.
 - **Topography:** Digital Elevation Model (DEM) and derived slope gradients.
 - **Human Infrastructure:** Euclidean distance surfaces calculated from settlements, agricultural parcels, road networks, power lines, and municipal landfills.
 
